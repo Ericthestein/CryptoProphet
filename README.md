@@ -26,7 +26,7 @@ To access the API, navigate to http://localhost:8080/[ticker], where [ticker] co
 Below is a sample json output for a request where ticker=btcusd:
 ```
 {
-"Forecast Description": "Over the next 24 hours, btcusd is expected to reach a low price of 59862.84 (+0.25%), a high price of 60821.10 (+0.01%), and an average price of 60238.75 (-0.00%). \n\nThese predictions were made using the price history of btcusd over the past day, as provided by Gemini, and by using Prophet, a forecasting algorithm developed by Facebook. This is not financial advice. ",
+    "Forecast Description": "Over the next 24 hours, btcusd is expected to reach a low price of 59862.84 (+0.25%), a high price of 60821.10 (+0.01%), and an average price of 60238.75 (-0.00%). \n\nThese predictions were made using the price history of btcusd over the past day, as provided by Gemini, and by using Prophet, a forecasting algorithm developed by Facebook. This is not financial advice. ",
     "stats": {
         "min_price_last_day": 59715.58,
         "min_price_next_day": 59862.842269370136,

@@ -2,6 +2,11 @@
 
 This repository houses CryptoProphet, an app that retrieves the last 24 hourly prices of a given cryptocurrency token, runs these values through a forecasting algorithm, calculates statistics based on the next 24 hourly predicted prices, and summarizes its findings.
 
+## Try it Out
+
+To try out CryptoProphet, use this endpoint: https://container-service-1.fjuqejd7h0rbe.us-east-1.cs.amazonlightsail.com/[ticker]
+where [ticker] corresponds to a cryptocurrency ticker, such as "ethusd". For example, the endpoint https://container-service-1.fjuqejd7h0rbe.us-east-1.cs.amazonlightsail.com/ethusd would return price predictions about Ethereum given the last day's price history.
+
 ## Building With Docker
 
 To build a Docker image of CryptoProphet, run `docker build --progress=plain -t crypto_prophet .`
@@ -43,8 +48,12 @@ Below is a sample json output for a request where ticker=ethusd:
 }
 ```
 
-## Resources
+## Built With
 
-CryptoProphet was built using:
+CryptoProphet was developed using:
 1) [Gemini's REST API](https://docs.gemini.com/rest-api/#ticker-v2)
 2) [Prophet by Facebook](https://facebook.github.io/prophet/)
+3) [Amazon Lightsail](https://lightsail.aws.amazon.com/)
+4) [FastAPI](https://fastapi.tiangolo.com/)
+5) [Docker](https://www.docker.com/)
+6) [Python](https://www.python.org/)

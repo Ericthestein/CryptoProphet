@@ -10,7 +10,7 @@ where [ticker] corresponds to a cryptocurrency ticker, such as "ethusd". For exa
 ## Building With Docker
 
 To build a Docker image of CryptoProphet, run `docker build --progress=plain -t crypto_prophet .` after cloning this repository and `cd`ing into the directory.
-Alternatively, you could pull the Docker image by running `docker pull ericthestein/crypto_prophet`
+Alternatively, you could pull the [docker image from dockerhub](https://hub.docker.com/r/ericthestein/crypto_prophet) by running `docker pull ericthestein/crypto_prophet`
 
 ## Running With Docker
 
